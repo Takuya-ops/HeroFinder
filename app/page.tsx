@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Link from 'next/link'
 import Header from '../components/Header'
@@ -14,7 +15,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                Herefinderのプラットフォームの概要と<br />
+                Herofinderのプラットフォームの概要と<br />
                 魅力的なビジュアルを提供する。
               </h1>
               <p className="text-xl text-gray-600 mb-8">
@@ -35,19 +36,19 @@ export default function Home() {
               <div className="feature-card text-center">
                 <h3 className="text-xl font-bold mb-4">ヒーローヘッダーセクション</h3>
                 <p className="text-gray-600">
-                  Herefinderのプラットフォームの概要と魅力的なビジュアルを提供する。
+                  Herofinderのプラットフォームの概要と魅力的なビジュアルを提供する。
                 </p>
               </div>
               <div className="feature-card text-center">
                 <h3 className="text-xl font-bold mb-4">特徴リストセクション</h3>
                 <p className="text-gray-600">
-                  Herefinderの主要な機能について簡潔に説明する。所要時間のマッチングサービス、デジタルバッジの収集、サステナビリティレポートの生成。
+                  Herofinderの主要な機能について簡潔に説明する。所要時間のマッチングサービス、デジタルバッジの収集、サステナビリティレポートの生成。
                 </p>
               </div>
               <div className="feature-card text-center">
                 <h3 className="text-xl font-bold mb-4">ベネフィットセクション</h3>
                 <p className="text-gray-600">
-                  Herefinderのサービスを利用することによるメリットを発明する。
+                  Herofinderのサービスを利用することによるメリットを発明する。
                 </p>
               </div>
             </div>

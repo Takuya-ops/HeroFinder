@@ -95,11 +95,11 @@ export default function AssessmentPage() {
     } else {
       // Save assessment data and redirect to results
       const assessmentData = {
-        ageGroup: answers[1] as string || '',
-        motivations: answers[2] as string[] || [],
-        goodAt: answers[3] as string || '',
-        wantToLearn: answers[4] as string || '',
-        concerns: answers[5] as string || ''
+        ageGroup: (answers[1] as string) || '',
+        motivations: Array.isArray(answers[2]) ? answers[2] : [],
+        goodAt: (answers[3] as string) || '',
+        wantToLearn: (answers[4] as string) || '',
+        concerns: (answers[5] as string) || ''
       }
       setAssessmentData(assessmentData)
       router.push('/results')
